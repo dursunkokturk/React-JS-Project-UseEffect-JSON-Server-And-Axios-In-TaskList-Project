@@ -1,0 +1,21 @@
+JSON Server Install And Using Informations
+https://www.npmjs.com/package/json-server
+
+JSON Server Install
+npm install -g json-server
+
+JSON Server Start
+json-server --watch db.json 
+Komut Satirinda Hata Verirse
+
+Farkli Bir Port Kullanarak Calistirma
+json-server --watch db.json --port 3004
+
+npx json-server --watch db.json
+Komut Satiri Yazilabilir
+
+Farkli Bir Port Kullanarak Calistirma
+npx json-server --watch api/db.json --port 3004
+
+Axios Install
+npm install axios
